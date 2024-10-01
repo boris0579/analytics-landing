@@ -1,8 +1,9 @@
 @charset "UTF-8";
+
 /**
  * Сброс стилей
  **/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
 html,
 body,
 div,
@@ -90,7 +91,6 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
-
 article,
 aside,
 details,
@@ -105,17 +105,14 @@ section,
 summary {
   display: block;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,12 +120,10 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 h1,
 h2,
 h3,
@@ -137,7 +132,6 @@ h5,
 h6 {
   font-weight: normal;
 }
-
 input {
   outline: 0;
 }
@@ -156,42 +150,3 @@ section,
 summary {
   display: block;
 }
-
-/*Basic style*/
-body {
-  font-family: "Roboto", sans-serif;
-  background: #f8f9ff;
-}
-
-.container {
-  min-width: 320px;
-  max-width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-
-.wrap {
-  min-width: 320px;
-  max-width: 1180px;
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-
-p,
-a,
-button {
-  color: #8794ba;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-html,
-body {
-  overflow-x: hidden;
-}
-
-/*# sourceMappingURL=style.css.map */
