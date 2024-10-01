@@ -1,0 +1,24 @@
+{
+  "name": "analytics-landing",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000a\u0000n\u0000a\u0000l\u0000y\u0000t\u0000i\u0000c\u0000s\u0000-\u0000l\u0000a\u0000n\u0000d\u0000i\u0000n\u0000g\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass ./scss/main.scss css/style.css",
+    "watch": "sass --watch ./scss/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boris0579/analytics-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boris0579/analytics-landing/issues"
+  },
+  "homepage": "https://github.com/boris0579/analytics-landing#readme",
+  "devDependencies": {
+    "sass": "^1.79.4"
+  }
+}
